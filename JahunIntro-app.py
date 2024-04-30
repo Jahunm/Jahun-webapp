@@ -19,7 +19,7 @@ lottie_file = load_lottieurl("https://lottie.host/406ad3c8-313f-4425-b072-c76385
 # ---- LOAD pictures ----
 img_contract_form = Image.open("Images/Pychain.png")
 img_famechain = Image.open("Images/famechain.png")
-img_kasei = Image.open("Images/kaseicoin.png")
+img_kasei = Image.open("Images/KaseiCoin.png")
 img_kryptojobs = Image.open("Images/kryptojobs.png")
 img_algospy = Image.open("Images/algospy.png")
 img_venture = Image.open("Images/venturefunding.png")
