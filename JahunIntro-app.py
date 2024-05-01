@@ -61,9 +61,13 @@ def welcome_page():
             st.write("##")
             st.markdown(
                 """
-I'm thrilled you've stopped by to join me on this exciting voyage towards becoming a **Jr. Blockchain Developer** and **Web Developer**. My adventure began with a rigorous 6-month FinTech Bootcamp at SMU in Dallas, Texas, where I honed my skills in the intricate world of finance and technology.
-But why stop there? I'm currently expanding my horizons at **HarvardX**, diving deep into the realms of **Artificial Intelligence** and **Blockchain technologies** through HyperLedger. Yes, it's a vast ocean of knowledge, and becoming a Full-stack developer is no small feat. But I'm committed to learning and growing every step of the way.
+I'm thrilled you've stopped by to join me on this exciting voyage towards becoming a **Jr. Blockchain Developer** and **Web Developer**. 
+My adventure began with a rigorous 6-month FinTech Bootcamp at SMU in Dallas, Texas, where I honed my skills in the intricate world of finance and technology.
+
+I'm currently expanding my horizons at **HarvardX**, diving deep into the realms of **Artificial Intelligence** and **Blockchain technologies** through HyperLedger. 
+Yes, it's a vast ocean of knowledge, and becoming a Full-stack developer is no small feat. But I'm committed to learning and growing every step of the way.
 Though my quest has just begun, I'm already captivated by the endless possibilities that lie ahead. Each challenge I overcome is a triumph, a testament to the joy of mastering new skills.
+
 Curious about my progress? Check out my **GitHub portfolio** in the link above, showcasing a collection of projects that mark my milestones. Your feedback is not just welcome—it's invaluable. As a newcomer to this field, my passion for learning is boundless, and I eagerly anticipate every new discovery.
 Join me, and let's explore the future of technology together!
 
