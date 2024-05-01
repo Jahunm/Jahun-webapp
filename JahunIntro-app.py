@@ -59,12 +59,14 @@ def welcome_page():
         with left_column:
             st.header("What this is about")
             st.write("##")
-            st.write(
-                """
-                Thank you for visiting my page! This is simple way for me to introduce myself and document my journey to becoming a Jr. Blockchain Developer and Web Developer.
-                I just graduated a 6 month intensive FinTech Bootcamp with SMU of Dallas, TX. I am also enrolled in HarvardX working toward 2 certs, AI and Blockchain with HyperLedger. I know that is a broad range of skills. Becoming a Full-stack developer in no simple task, Im learning
-                Its only been a short time pursuing this new path in life. I Know I have not even scratched the surface of the potential possibilities. Every challange is little victory and I really like that feeling.
-                In the link above is my GitHub as a portfolio of completed projects. Any feedback is welcome. I am new to this field but, like I said before, I am passionate about learning more.
+            st.markdown(
+                """**Welcome to my journey!** :rocket:
+
+I'm thrilled you've stopped by to join me on this exciting voyage towards becoming a **Jr. Blockchain Developer** and **Web Developer**. My adventure began with a rigorous 6-month FinTech Bootcamp at SMU in Dallas, Texas, where I honed my skills in the intricate world of finance and technology.
+But why stop there? I'm currently expanding my horizons at **HarvardX**, diving deep into the realms of **Artificial Intelligence** and **Blockchain technologies** through HyperLedger. Yes, it's a vast ocean of knowledge, and becoming a Full-stack developer is no small feat. But I'm committed to learning and growing every step of the way.
+Though my quest has just begun, I'm already captivated by the endless possibilities that lie ahead. Each challenge I overcome is a triumph, a testament to the joy of mastering new skills.
+Curious about my progress? Check out my **GitHub portfolio** in the link above, showcasing a collection of projects that mark my milestones. Your feedback is not just welcome—it's invaluable. As a newcomer to this field, my passion for learning is boundless, and I eagerly anticipate every new discovery.
+Join me, and let's explore the future of technology together!
 
                 """
             )
@@ -72,7 +74,7 @@ def welcome_page():
         with st.container():
             st.write("---")
             st.header("Get In Touch With Me!")
-            st.markdown("[LinkedIn Profile](www.linkedin.com/in/jahun-moayedzadeh-703a4763)")
+            st.markdown("[LinkedIn Profile](www.linkedin.com/in/jahunm)")
         # ---- Right Column ----
         with right_column:
             st_lottie(lottie_file, height=300, key="file")
