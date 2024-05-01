@@ -74,7 +74,7 @@ Join me, and let's explore the future of technology together!
         with st.container():
             st.write("---")
             st.header("Get In Touch With Me!")
-            st.markdown("[LinkedIn Profile](www.linkedin.com/in/jahunm)")
+            st.write("[LinkedIn Profile](www.linkedin.com/in/jahunm)")
         # ---- Right Column ----
         with right_column:
             st_lottie(lottie_file, height=300, key="file")
@@ -172,7 +172,6 @@ def machine_learning_ai_page():
                 '''
             )
             st.markdown("[Link to the Github Repo...],(https://github.com/Jahunm/Venture_funding_with_deep_learning/tree/main)")
-        st.write("---")
         # Project 3
         st.write("---")
         st.write("##")
@@ -228,7 +227,6 @@ def financial_quantitive_analyst_page():
                 '''
             )
             st.markdown("[Link to the Github Repo...],(https://github.com/Jahunm/financial_planning)")
-        st.write("---")
         # Project 3
         st.write("---")
         st.write("##")
