@@ -57,11 +57,10 @@ def welcome_page():
         left_column, right_column = st.columns(2)
         # ---- Left Column ----
         with left_column:
-            st.header("What this is about")
+            st.header("**Welcome to my journey!** :rocket:")
             st.write("##")
             st.markdown(
-                """**Welcome to my journey!** :rocket:
-
+                """
 I'm thrilled you've stopped by to join me on this exciting voyage towards becoming a **Jr. Blockchain Developer** and **Web Developer**. My adventure began with a rigorous 6-month FinTech Bootcamp at SMU in Dallas, Texas, where I honed my skills in the intricate world of finance and technology.
 But why stop there? I'm currently expanding my horizons at **HarvardX**, diving deep into the realms of **Artificial Intelligence** and **Blockchain technologies** through HyperLedger. Yes, it's a vast ocean of knowledge, and becoming a Full-stack developer is no small feat. But I'm committed to learning and growing every step of the way.
 Though my quest has just begun, I'm already captivated by the endless possibilities that lie ahead. Each challenge I overcome is a triumph, a testament to the joy of mastering new skills.
@@ -70,10 +69,10 @@ Join me, and let's explore the future of technology together!
 
                 """
             )
-            st.write("[Github ->](https://github.com/Jahunm)")
+            st.markdown("[Github ->](https://github.com/Jahunm)")
         with st.container():
             st.write("---")
-            st.header("Get In Touch With Me!")
+            st.subheader("Get In Touch With Me!")
             st.write("[LinkedIn Profile](www.linkedin.com/in/jahunm)")
         # ---- Right Column ----
         with right_column:
